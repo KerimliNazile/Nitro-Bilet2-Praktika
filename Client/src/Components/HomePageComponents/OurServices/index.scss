@@ -1,0 +1,24 @@
+#OurServices{
+    .ServicesArea{
+        margin-top: 100px;
+        .ServicesText{
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+            font-size: 40px;
+            color: #007bff;
+            
+        }
+        .CardAreaMain{
+margin-top: 100px;
+        display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        .CardArea{
+            display: flex;
+            width: 350px;
+            height: 240px;
+            
+        }}
+
+    }
+}

@@ -1,0 +1,40 @@
+.Card {
+    .CardIcon {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        margin-left: 200px;
+
+        .FaHeart {
+            color: #007bff;
+
+            &:hover {
+                color: brown;
+                transition: 0.5s;
+                font-size: 22px;
+            }
+        }
+        .FaEye{
+            color: #007bff;
+            &:hover {
+                color: black;
+                transition: 0.5s;
+                font-size: 22px;
+            }
+        }
+    }
+    .image{
+        font-size: 60px;
+        color:  #007bff;
+    }
+    .content{
+        h1{
+            font-size: 28px;
+            color:black;
+        }
+        p{
+            color: black;
+        }
+    }
+}

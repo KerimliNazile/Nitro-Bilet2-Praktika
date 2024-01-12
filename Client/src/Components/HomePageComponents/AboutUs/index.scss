@@ -1,0 +1,49 @@
+#AboutUs {
+    height: 100vh;
+
+    .AboutUsArea {
+        .AboutUstext {
+            // margin-top: 30px;
+            // margin-left: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #007bff;
+        }
+
+        .MainAbout {
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+
+            .LeftAbout {
+                img {
+                    height: 360px;
+                    width: 540px;
+                }
+            }
+
+            .RightAbout {
+                width: 450px;
+                h3{
+                    font-size: 1.75rem;
+                }
+                p{
+                    
+                    font-size: 18px;
+                    color: rgb(163, 162, 162);
+                }
+                .RightIl{
+                    list-style: none;
+                    color: rgb(163, 162, 162);
+                    li{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

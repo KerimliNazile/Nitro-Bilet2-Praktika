@@ -1,0 +1,64 @@
+.NavbarMain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px;
+    width: 100%;
+    // border-bottom: 1px solid rgb(224, 221, 221);
+    position: absolute;
+
+    .ImageNav {
+        font-size: 25px;
+        color: white;
+    }
+
+    .NavArea {
+        .NavMain {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            list-style: none;
+
+            .NavMain li {
+                position: relative;
+            }
+
+            li a {
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+
+            }
+
+            .SubMenu {
+                position: absolute;
+                background-color: aquamarine;
+                display: none;
+
+                .SubMenuArea {
+                    position: absolute;
+
+                    .SubLi {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.About:hover .SubMenu {
+    display: block;
+    transition: .5s;
+
+}
+
+.SubMenu:hover {
+    display: block;
+    transition: .5s;
+}
+
+.SubMenuArea {
+    display: flex;
+}
